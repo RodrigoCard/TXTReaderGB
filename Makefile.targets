@@ -1,0 +1,39 @@
+
+# Platform specific flags for compiling (only populate if they're both present)
+ifneq ($(strip $(PORT)),)
+ifneq ($(strip $(PLAT)),)
+CFLAGS += -m$(PORT):$(PLAT)
+endif
+endif
+
+# Called by the individual targets below to build a ROM
+build-target: $(BINS)
+
+clean-target:
+	rm -rf "$(OBJDIR)"
+	rm -rf "$(BINDIR)"
+
+gb-everdrivex-clean:
+	${MAKE} clean-target CARD=everdrivex EXT=gb
+	rm -rf "obj/gb-everdrivex"
+gb-everdrivex:
+	${MAKE} build-target PORT=$(GBCPU) PLAT=gb CARD=everdrivex EXT=gb
+
+gb-ezflashjr-clean:
+	${MAKE} clean-target CARD=ezflashjr EXT=gb
+	rm -rf "obj/gb-ezflashjr"
+gb-ezflashjr:
+	${MAKE} build-target PORT=$(GBCPU) PLAT=gb CARD=ezflashjr EXT=gb
+
+gg-everdrive-clean:
+	${MAKE} clean-target CARD=everdrive EXT=gg
+	rm -rf "obj/gg-everdrive"
+gg-everdrive:
+	${MAKE} build-target PORT=z80 PLAT=gg CARD=everdrive EXT=gg
+
+sms-everdrive-clean:
+	${MAKE} clean-target CARD=everdrive EXT=sms
+	rm -rf "obj/sms-everdrivex"
+sms-everdrive:
+	${MAKE} build-target PORT=z80 PLAT=sms CARD=everdrive EXT=sms
+

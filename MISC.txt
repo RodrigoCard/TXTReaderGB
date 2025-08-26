@@ -1,0 +1,35 @@
+toxa — Ontem às 09:54
+Emulicious support everdrive for the sms/gg. Also, iirc, @asie added support for the EzFlash jr into the game boy retroarch. 
+
+https://discord.com/channels/790342889318252555/790346253379698718/1397924873824637060
+
+Error UTF8
+
+â¬ÆËâ¢Â®Å¸Â¡Â£Â©ÂªÂ°Â¿â¢Ã¿Å¸ >
+ÃÃÃaÃ¡Ã£Ã eÃ©ÃªiÃ­oÃ³Ã´Ã²ÃµuÃºÃ¼.
+	<End>
+
+€ƒ˜™®Ÿ¡£©ª°¿™ÿŸ >
+ÀÃÁaáãàeéêiíoóôòõuúü.
+	<End>
+
+âÆËâÂÅÂÂÂÂÂÂâÃÅ >
+ÃÃÃaÃÃÃeÃÃiÃoÃÃÃÃuÃÃ.
+Î
+
+https://www.i18nqa.com/debug/utf8-debug.html#dbg
+
+
+Encoding Problem: ISO-8859-1 vs Windows-1252
+https://www.i18nqa.com/debug/bug-iso8859-1-vs-windows-1252.html
+
+Symptom
+The following characters fail, while other characters display correctly:
+€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ.
+
+The trademark and Euro currency symbol, ellipsis, single and double "smart quotes", en and em dash, and the OE ligature characters are used frequently and are most likely to be reported as a symptom of this problem.
+Explanation
+
+The characters in the range 0x80-0x9F (128-159) (note the coloring used here and in the Encoding Debug Table) are in Windows-1252 and not in ISO-8859-1. If you have a problem with characters in that range only, it is because the characters are treated as ISO-8859-1 and not Windows-1252.
+
+Look for references to ISO-8859-1 and replace them with "Windows-1252" (or CP1252, or the correct character encoding name for the library or platform you are using.) 

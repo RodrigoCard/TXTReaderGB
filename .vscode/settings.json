@@ -1,0 +1,9 @@
+{
+	"files.associations": {
+		"*.gbsproj": "json",
+		"*.c": "c",
+		"*.h": "c",
+	},
+	"emulicious-debugger.emuliciousPath": "D:\\Apps\\Emulicious-with-Java64\\Emulicious.exe"
+    // "emulicious-debugger.emuliciousPath": "/Applications/Emuladores/Emulicious/Emulicious.jar"    
+}

@@ -1,0 +1,16 @@
+# .vscode
+/obj/*
+/build/*
+/misc/*
+/builds/*
+*.map
+*.sym
+*.ihx
+*.noi
+*.cdb
+*.sav
+unused
+*.exe
+.DS_Store
+encoding-test-files-master.zip
+/package/*

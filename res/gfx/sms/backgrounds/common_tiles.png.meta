@@ -1,0 +1,1 @@
+-b 255 -noflip -tiles_only -no_palettes -keep_palette_order -keep_duplicate_tiles -pack_mode 1bpp -bpp 1

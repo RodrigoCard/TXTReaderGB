@@ -1,0 +1,17 @@
+SELECTED SONNETS
+BY WILLIAM SHAKESPEARE  
+
+William Shakespeare (1564-1616) is, of course, widely considered to be the master poet of the English language.  Especially known for the brilliant language and the deep and powerful manifestation of human character in his plays - masterpieces such as "Hamlet", King Lear", "Othello", "MacBeth", and "Julius Caesar", to name a few - he is also highly regarded as a master craftsman of the "Elizabethan Sonnet."  This type of sonnet is identified by a tell-tale structure: a total of fourteen lines, consisting of three quatrains with ending rhymes in alternate lines (first and third line, second and fourth line), followed by a couplet, each of the final two lines ending in a rhyme.  The quatrains are usually not separated from each other, but rather, fused into one body; while the couplet is minimally set off by means of an indentation.  The Elizabethan sonnet is, furthermore, generally permeated by iambic pentameter (an internal rhythm formed by five "measures" of two syllables each, per line, with the accent placed upon the second syllable of each measure).  In the manner of the Japanese haiku and tanka, the poet was constrained by the form, yet, with practice, might finally learn to wear its demands, and to use it as springboard for beautiful creations.  This was certainly so in the case of William Shakespeare.
+
+Index of this directory:
+- Sonnet XVIII
+- Sonnet XXX
+- Sonnet LV
+- Sonnet LXVI
+- Sonnet LXXIII
+- Sonnet CXVI
+- Sonnet CXXX
+
+Refernces:
+Public Domain Shakespeare Sonnets taken from here:
+http://www.rainsnow.org/csh_shakespeare_sonnets.htm

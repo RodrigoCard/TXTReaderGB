@@ -1,0 +1,14 @@
+Game Boy Color
+Button combinations to choose
+Color palettes for non-color
+games.
+
+
+DPad:       +A         +B
+
+Up    Brown  Red        Dark Brown
+Down  Pastel Orange     Yellow
+Left  Blue   Dark Blue  Grayscale
+Right Green  Dark Green Inverted
+
+

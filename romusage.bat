@@ -1,0 +1,1 @@
+C:\sdk\gbdk\bin\romusage.exe build\gb\txt_reader-ezflashjr.gb -gA -sR -sC
