@@ -56,9 +56,12 @@ This project used VGM player as a base and wont be possible without this.
 https://github.com/untoxa/VGM_player
 
 
-	Thanks to untoxa for making this VGM Player, not only because this application is based on his work, but also because I didnt realize this project was possible until seeing this thing work on my EZ-Flash Jr.
+	Thanks to untoxa for making this VGM Player, not only because this application is
+ 	based on his work, but also because I didnt realize this project was possible until
+  	seeing this thing work on my EZ-Flash Jr.
 
-	Also a thanks to all GBDK-2020 mantainers and authors, GBCompo25 organizers, partners and sponsors. You rock!
+	Also a thanks to all GBDK-2020 mantainers and authors, GBCompo25 organizers,
+ 	partners and sponsors. You rock!
 
 You need the latest version of GBDK-2020, GNU Make, Python + Pillow package to compile this project.
 On windows you also need the linux subsystem, say, MSys2.
@@ -77,6 +80,7 @@ You can find some of my games here:
 Social media links:
 * https://x.com/RodrigoRodrigoR
 * https://bsky.app/profile/rodrigorodrigor.bsky.social
+
 
 
 You can also find me on #gbdev, #gbdk2020 and #gbstudio discord.
