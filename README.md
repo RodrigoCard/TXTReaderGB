@@ -14,6 +14,8 @@ Supported Charsets:
 * CP1252 (aka Windows 1252)
 * ISO-8859-1 (a subset of CP1252)
 
+[You can download it here](https://rodrigocard.itch.io/text-reader-gb)
+
 ## Instructions
 
 ### Controls
@@ -84,3 +86,4 @@ Social media links:
 
 
 You can also find me on #gbdev, #gbdk2020 and #gbstudio discord.
+
