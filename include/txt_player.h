@@ -19,6 +19,7 @@
 #define TXT_READ_BUFFER_SIZE2	256 // TODO: (A) to display full line on window
 #define DISPLAY_MAX_LINES       14 //3
 #define DISPLAY_MAX_LINE_LEN    25 //64
+#define DISPLAY_MAX_LINE_WIDTH	(DEVICE_SCREEN_BUFFER_WIDTH-16) // whole screen width minus 2 tiles
 
 #define TXT_FIELD_POS_X		1
 #define TXT_FIELD_POS_Y		2

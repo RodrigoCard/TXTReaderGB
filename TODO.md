@@ -1,6 +1,6 @@
 # TODO:
 	- Incorrect width with short text in shorter fonts
-		-- get line len instead of DISPLAY_MAX_LINE_LEN
+		-- get line width for each line instead of DISPLAY_MAX_LINE_LEN
 	- draw '>' at right side when more chars are not shown
 	- for lines bigger than available width:
 		- Show more when press A on a window
@@ -42,11 +42,18 @@
 	- Auto Line Break option
 	- check correct encodings!
 	- adjustable \t size
+<<<<<<< HEAD
+=======
+	- a read somewhere there is everdrive emulation in some emulators, use that!
+>>>>>>> master
 	- File browser:
 		- <- -> to select the next column
 			- check page selection ( menu_execute > onTranslateKeyFileBrowser )
 		- recent files
+<<<<<<< HEAD
 	- a read somewhere there is everdrive emulation in some emulators, use that!
+=======
+>>>>>>> master
 	- try gg/sms 
 		- vgm player worked correctly on my gg/sms cheap flashcarts, should be doable
  	- find a faster way to scroll instead of redrawing everything char by char
