@@ -5,6 +5,7 @@ This is a simple TXT File Reader for:
 * the Game Boy with an **EZ-Flash Junior** SD cart; *(Tested)*
 * the Game Boy with an **Everdrive X3/X5/X7** SD cart; *(untested)*
 	* *maybe the everdrive version could work on some recent clones, needs confirmation. I tested 2 old clones and they did not work at all.*
+	* update: works on Everdrive X7 (thanks bbbbbr)
 
 Partially supported Charsets:
 * UTF-8
