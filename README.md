@@ -33,7 +33,7 @@ Supported Charsets:
 * LEFT/RIGHT: skip a "page" (about 14 lines);
 * ~~A: Expand line;~~ (TODO)
 * B: Back to file browser;
-* ~~SELECT: Change Charset Encoding;~~ (WIP)
+* SELECT: Change Charset Encoding; (WIP)
 * START: Change Font.
 
 ## Future plans/Wishlist
@@ -87,5 +87,6 @@ Social media links:
 
 
 You can also find me on #gbdev, #gbdk2020 and #gbstudio discord.
+
 
 
