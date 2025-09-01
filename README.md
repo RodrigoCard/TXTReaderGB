@@ -26,14 +26,14 @@ Supported Charsets:
 * A: Open file;
 * B: Back to first file;
 * SELECT: Show All Files/Show TXT (and a few others) files only;
-* START: Show info.
+* ~~START: Show info.~~ (TODO)
 
 #### Text Reader
 * UP/DOWN: Navigate lines;
 * LEFT/RIGHT: skip a "page" (about 14 lines);
-* A: Expand line;
+* ~~A: Expand line;~~ (TODO)
 * B: Back to file browser;
-* SELECT: Change Charset Encoding;
+* ~~SELECT: Change Charset Encoding;~~ (WIP)
 * START: Change Font.
 
 ## Future plans/Wishlist
@@ -87,4 +87,5 @@ Social media links:
 
 
 You can also find me on #gbdev, #gbdk2020 and #gbstudio discord.
+
 
